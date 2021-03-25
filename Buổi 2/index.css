@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@500&display=swap");
+/* font-family: 'Be Vietnam', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1300px;
+  padding: 50px;
+}
+
+/* Home menu */
+
+.banner {
+  background-image: url("./resources/hero.jpg");
+  height: 700px;
+  background-size: cover;
+}
+
+nav {
+  margin-left: 10%;
+}
+
+nav .container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container .logo a img {
+  height: 100px;
+  width: auto;
+}
+
+.container .links .nav-links {
+  width: 800px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav-links li a {
+  color: white;
+  font-family: "Be Vietnam", sans-serif;
+  font-size: 18px;
+}
+.nav-links li a:hover {
+  color: #e67e22;
+}
