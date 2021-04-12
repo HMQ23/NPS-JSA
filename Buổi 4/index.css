@@ -1,0 +1,13 @@
+.heading h1 {
+  text-align: center;
+}
+.heading {
+  background-color: beige;
+  height: 5rem;
+}
+.detail {
+  display: flex;
+}
+.detail div p {
+  padding: 10px;
+}

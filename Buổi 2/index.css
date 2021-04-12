@@ -69,3 +69,49 @@ nav .container {
 .nav-links li a:hover {
   color: #e67e22;
 }
+
+/* Content menu */
+
+.content-menu {
+  width: 700px;
+  height: 200px;
+  margin-left: 10%;
+  margin-top: 8%;
+  color: white;
+  position: relative;
+  z-index: 5;
+}
+
+.content-menu .text p {
+  font-family: "Be Vietnam", sans-serif;
+  font-size: 50px;
+  line-height: 60px;
+}
+
+.content-menu .multi-button {
+  width: 320px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.content-menu .multi-button a button {
+  width: 150px;
+  height: 40px;
+  outline: none;
+  border: solid 2px #e67e22;
+  background: none;
+  border-radius: 30px;
+  font-family: "Be Vietnam", sans-serif;
+  cursor: pointer;
+}
+
+#button1 {
+  background-color: #e67e22;
+  color: white;
+}
+
+#button2 {
+  color: #e67e22;
+}
