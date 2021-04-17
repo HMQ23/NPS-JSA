@@ -1,0 +1,6 @@
+.sign-in-image img {
+  display: flex;
+  justify-content: center;
+  width: 400;
+  height: 400;
+}
